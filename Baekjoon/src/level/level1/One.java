@@ -10,7 +10,7 @@ public class One {
 		start.problem2();
 		start.problem3();
 		start.problem4();
-	
+		//왜....
 	}
 	
 	public void problem1() {
