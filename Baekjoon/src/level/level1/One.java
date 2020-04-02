@@ -6,9 +6,9 @@ public class One {
 
 	public static void main(String[] args) {
 		One start = new One();
-		/*start.problem1();
+		start.problem1();
 		start.problem2();
-		start.problem3();*/
+		start.problem3();
 		start.problem4();
 	
 	}
