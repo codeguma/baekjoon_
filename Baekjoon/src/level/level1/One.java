@@ -9,6 +9,7 @@ public class One {
 		start.problem1();
 		start.problem2();
 		start.problem3();
+		start.problem4();
 	
 	}
 	
@@ -38,6 +39,20 @@ public class One {
 							" )  ( ')\r\n" + 
 							"(  /  )\r\n" + 
 							" \\(__)|");
+	}
+	public void problem4() {
+		/*4.아래 예제와 같이 개를 출력하시오.
+		 * |\_/|
+			|q p|   /}
+			( 0 )"""\
+			|"^"`    |
+			||_/=\\__|
+		 */
+		System.out.println("|\\_/|\r\n" + 
+				"|q p|   /}\r\n" + 
+				"( 0 )\"\"\"\\\r\n" + 
+				"|\"^\"`    |\r\n" + 
+				"||_/=\\\\__|");
 	}
 
 }
