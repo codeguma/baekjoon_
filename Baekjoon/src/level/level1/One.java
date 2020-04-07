@@ -14,7 +14,9 @@ public class One {
 //		start.problem3();
 //		start.problem4();
 //		start.problem5();
-		start.problem6();
+//		start.problem6();
+		start.problem7();
+		start.problem8();
 		
 		
 	}
@@ -65,9 +67,7 @@ public class One {
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
 		Scanner sc = new Scanner(System.in);
-		System.out.println("A를 입력하시오.");
 		int A = sc.nextInt();
-		System.out.println("B를 입력하시오.");
 		int B = sc.nextInt();
 		sc.close();
 		
@@ -78,12 +78,32 @@ public class One {
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
 		Scanner sc = new Scanner(System.in);
-		System.out.println("A를 입력하시오.");
 		int A = sc.nextInt();
-		System.out.println("B를 입력하시오.");
 		int B = sc.nextInt();
 		sc.close();
 		
 		System.out.println(A-B);
+	}
+	public void problem7() {
+		/*두 정수 A와 B를 입력받은 다음, A*B를 출력하는 프로그램을 작성하시오.
+		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+		 */
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		//sc.close();
+		
+		System.out.println(A*B);
+	}
+	public void problem8() {
+		/*두 정수 A와 B를 입력받은 다음, A/B를 출력하는 프로그램을 작성하시오.
+		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+		 */
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		//sc.close();
+		
+		System.out.println(A/B);
 	}
 }
