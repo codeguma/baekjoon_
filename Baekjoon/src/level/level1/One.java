@@ -9,24 +9,25 @@ public class One {
 
 	public static void main(String[] args) {
 		One start = new One();
-//		start.problem1();
-//		start.problem2();
-//		start.problem3();
-//		start.problem4();
-//		start.problem5();
-//		start.problem6();
-		start.problem7();
-		start.problem8();
+//		start.problem2557();
+//		start.problem10718();
+//		start.problem10171();
+//		start.problem10172();
+//		start.problem1000();
+//		start.problem1001();
+//		start.problem10998();
+//		start.problem1008();
+		start.problem10869();
 		
 		
 	}
 	
-	public void problem1() {
+	public void problem2557() {
 		/*1.Hello World!를 출력하시오 */
 	
 		System.out.println("Hello World!");
 	}
-	public void problem2() {
+	public void problem10718() {
 		/*2.ACM-ICPC 인터넷 예선, Regional, 
 		   그리고 World Finals까지 이미 2회씩 진출해버린 kriii는 미련을 버리지 못하고 
 		  왠지 모르게 올 해에도 파주 World Finals 준비 캠프에 참여했다.
@@ -36,7 +37,7 @@ public class One {
 		// \n : 개행문자.
 		// \r , \n , \r\n을 적절히 맞게 사용하자.
 	}
-	public void problem3() {
+	public void problem10171() {
 		/*3.아래 예제와 같이 고양이를 출력하시오.
 		 * \    /\
  			)  ( ')
@@ -48,7 +49,7 @@ public class One {
 							"(  /  )\r\n" + 
 							" \\(__)|");
 	}
-	public void problem4() {
+	public void problem10172() {
 		/*4.아래 예제와 같이 개를 출력하시오.
 		 * |\_/|
 			|q p|   /}
@@ -62,7 +63,7 @@ public class One {
 				"|\"^\"`    |\r\n" + 
 				"||_/=\\\\__|");
 	}
-	public void problem5() {
+	public void problem1000() {
 		/*두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
@@ -73,7 +74,7 @@ public class One {
 		
 		System.out.println(A+B);
 	}
-	public void problem6() {
+	public void problem1001() {
 		/*두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오.
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
@@ -84,7 +85,7 @@ public class One {
 		
 		System.out.println(A-B);
 	}
-	public void problem7() {
+	public void problem10998() {
 		/*두 정수 A와 B를 입력받은 다음, A*B를 출력하는 프로그램을 작성하시오.
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
@@ -95,7 +96,7 @@ public class One {
 		
 		System.out.println(A*B);
 	}
-	public void problem8() {
+	public void problem1008() {
 		/*두 정수 A와 B를 입력받은 다음, A/B를 출력하는 프로그램을 작성하시오.
 		 * 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 		 */
@@ -105,5 +106,18 @@ public class One {
 		//sc.close();
 		
 		System.out.println(A/B);
+	}
+	public void problem10869() {
+		/*
+		 * 두 자연수 A와 B가 주어진다. 이때, A+B, A-B, A*B, A/B(몫), A%B(나머지)를 출력하는 프로그램을 작성하시오. 
+		 */
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		System.out.println(A+B);
+		System.out.println(A-B);
+		System.out.println(A*B);
+		System.out.println(A/B);
+		System.out.println(A%B);
 	}
 }
