@@ -18,7 +18,8 @@ public class One {
 //		start.problem10998();
 //		start.problem1008();
 //		start.problem10869();
-		start.problem10430();
+//		start.problem10430();
+		start.problem2588();
 		
 		
 	}
@@ -141,5 +142,47 @@ public class One {
 		System.out.println(((A%C) + (B%C))%C);
 		System.out.println((A*B)%C);
 		System.out.println(((A%C)*(B%C))%C);
+	}
+	public void problem2588() {
+		/*
+		 * (세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.
+		   (1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.
+		 */
+		/*int A = 472;
+		int B = 385;
+		String C = String.valueOf(B);
+		int D[] = new int[3];
+		double sum = 0;
+		double temp = 0;
+		
+		String num[] = {C.substring(2,3), C.substring(1,2) , C.substring(0,1)};
+		
+		for(int i = 0 ; i < 3 ; i++ ) {
+			D[i] = Integer.parseInt(num[i]);
+			temp = A*D[i]*Math.pow(10, i);
+			sum = sum + temp;
+			System.out.println(A*D[i]);
+			if(i==2) {
+			System.out.println((int)Math.round(sum));
+			};
+		};*/
+		
+/*		* 자연수의 각 자리수 뽑아내기
+
+		temp : 1의 자리수부터 자연수의 자리수를 가져옴
+
+		while(num > 0) {
+		    int temp = num % 10;
+		    num /= 10;
+		}*/
+		
+		  Scanner sc = new Scanner(System.in);
+	        int a = sc.nextInt();
+	        int b = sc.nextInt();
+	        
+	        System.out.println(a * (b%10));
+	        System.out.println(a* ((b/10)%10));
+	        System.out.println(a* (b/100));
+	        System.out.println(a*b);    
 	}
 }
