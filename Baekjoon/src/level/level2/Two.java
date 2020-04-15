@@ -9,7 +9,8 @@ public class Two {
 //		start.problem1330();
 //		start.problem9498();
 //		start.problem2753();
-		start.problem14681();
+//		start.problem14681();
+		start.problem2884();
 		
 	}
 	public void problem1330() {
@@ -85,6 +86,22 @@ public class Two {
 		}else {
 			if(y>0) System.out.println("3");
 			else System.out.println("4");
+		}
+	}
+	public void problem2884() {
+		Scanner sc = new Scanner(System.in);
+		int H = sc.nextInt();
+		int M  = sc.nextInt();
+		sc.close();
+		
+		if(M >= 45) {
+			if(H == 0) System.out.println( (H-1) +" "+ (M-45));
+			else System.out.println(H +" "+(M-45));
+		}else {
+			if(H == 0) {
+				H = 23;
+				System.out.println(H+" "+(60-(45-M)));
+			}else System.out.println((H-1)+" "+(60-(45-M)));
 		}
 	}
 
