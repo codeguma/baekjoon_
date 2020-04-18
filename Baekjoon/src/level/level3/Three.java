@@ -7,7 +7,8 @@ public class Three {
 	public static void main(String[] args) {
 		Three start = new Three();
 //		start.problem2739();
-		start.problem10950();
+//		start.problem10950();
+		start.problem8393();
 		
 	}
 	public void problem2739() {
@@ -38,7 +39,19 @@ public class Three {
 			 System.out.println(A+B);
 		 }
 		 sc.close();
-		 
 	}
-
+	public void problem8393() {
+		/*
+		 * n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.
+		 */
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int sum = 0 ;
+		sc.close();
+		
+		for(int i=0; i <= n; ++i) {
+			sum += i ;
+		}
+		System.out.println(sum);
+	}
 }
