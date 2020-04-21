@@ -9,12 +9,13 @@ import java.util.Scanner;
 
 public class Three {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		Three start = new Three();
 //		start.problem2739();
 //		start.problem10950();
 //		start.problem8393();
-		start.problem15552();
+//		start.problem15552();
+		start.problem2741();
 		
 	}
 	public void problem2739() {
@@ -78,5 +79,17 @@ public class Three {
 	        
 	        bw.flush();
 	        bw.close();
+	        //속도 면에서 더 낫다.
+	}
+	public void problem2741() {
+		/*
+		 * 자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력하는 프로그램을 작성하시오.
+		 */
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		
+		for(int i = 1 ; i <= N ; i++) {
+			System.out.println(i);
+		}
 	}
 }
