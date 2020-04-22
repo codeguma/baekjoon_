@@ -15,8 +15,8 @@ public class Three {
 //		start.problem10950();
 //		start.problem8393();
 //		start.problem15552();
-		start.problem2741();
-		
+//		start.problem2741();
+		start.problem2742();
 	}
 	public void problem2739() {
 		/*
@@ -87,9 +87,19 @@ public class Three {
 		 */
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
+		sc.close();
 		
 		for(int i = 1 ; i <= N ; i++) {
 			System.out.println(i);
+		}
+	}
+	public void problem2742() {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		sc.close();
+		
+		for(int i = 0 ; i < N ; i++) {
+			System.out.println(N-i);
 		}
 	}
 }
