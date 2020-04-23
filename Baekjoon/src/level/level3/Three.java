@@ -16,7 +16,8 @@ public class Three {
 //		start.problem8393();
 //		start.problem15552();
 //		start.problem2741();
-		start.problem2742();
+//		start.problem2742();
+		start.problem11021();
 	}
 	public void problem2739() {
 		/*
@@ -100,6 +101,15 @@ public class Three {
 		
 		for(int i = 0 ; i < N ; i++) {
 			System.out.println(N-i);
+		}
+	}
+	public void problem11021() {
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		for(int i =1 ; i <= T; i++) {
+			int A = sc.nextInt();
+			int B = sc.nextInt();
+			System.out.println("Case #"+i+":"+(A+B));
 		}
 	}
 }
