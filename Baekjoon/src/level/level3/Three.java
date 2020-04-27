@@ -18,7 +18,8 @@ public class Three {
 //		start.problem2741();
 //		start.problem2742();
 //		start.problem11021();
-		start.problem11022();
+//		start.problem11022();
+		start.problem2438();
 	}
 	public void problem2739() {
 		/*
@@ -126,5 +127,15 @@ public class Three {
 			System.out.println("Case #"+i+": "+A+" + "+B+" = "+(A+B));
 		}
 		sc.close();
+	}
+	public void problem2438() {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		sc.close();
+		for(int i =0 ; i < N ; i++) {
+			for(int j = 0; j <= i ; j++)
+				System.out.print("*");
+			System.out.println();
+		}
 	}
 }
