@@ -148,6 +148,8 @@ public class Three {
 			for(int j = i; j <= i ; j++)
 				System.out.print("*");
 			System.out.println();
+			
+			
 		}
 	}
 }
