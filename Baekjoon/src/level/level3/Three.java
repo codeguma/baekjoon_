@@ -144,12 +144,11 @@ public class Three {
 		int N = sc.nextInt();
 		sc.close();
 		for(int i =0 ; i < N ; i++) {
-			System.out.print("");
-			for(int j = i; j <= i ; j++)
+			for(int k =0 ; k <= N-i ; k++)
+				System.out.print(" ");
+				for(int j = 0; j <= i ; j++)
 				System.out.print("*");
 			System.out.println();
-			
-			
 		}
 	}
 }
