@@ -8,6 +8,7 @@ public class Four {
 		Four start = new Four();
 		
 		start.problem10952();
+		start.problem10951();
 	}
 	public void problem10952() {
 		Scanner scan = new Scanner(System.in);
@@ -18,6 +19,20 @@ public class Four {
 			if(num1 == 0 && num2 == 0) break;
 			System.out.println(num1 + num2);
 		}
+	}
+	public void problem10951() {
+		 Scanner sc = new Scanner(System.in);
+		 while( sc.hasNextInt()) {
+		      
+		      int  A = sc.nextInt();    
+		      int  B = sc.nextInt();    
+
+		         System.out.println(A+B);
+		 }
+		  
+		     sc.close();
+		        
+		 }
 	}
 
 }
