@@ -9,6 +9,7 @@ public class Four {
 		
 		start.problem10952();
 		start.problem10951();
+		start.problem1110();
 	}
 	public void problem10952() {
 		Scanner scan = new Scanner(System.in);
@@ -33,6 +34,8 @@ public class Four {
 		     sc.close();
 		        
 		 }
+	public void problem1110() {
+		
 	}
 
 }
