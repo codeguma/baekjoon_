@@ -35,7 +35,7 @@ public class Four {
 		        
 		 }
 	public void problem1110() {
-		
+		Scanner sc = new Scanner(System.in);
 	}
 
 }
