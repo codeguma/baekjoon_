@@ -49,6 +49,8 @@ public class Four {
         } while (n != number);
          
         System.out.println(count);
+        
+        
 	}
 
 }
