@@ -6,7 +6,8 @@ public class Five {
 
 	public static void main(String[] args) {
 		Five start = new Five();
-		start.problem10039();
+//		start.problem10039();
+		start.problem5543();
 	}
 	public void problem10039() {
 		Scanner sc = new Scanner(System.in);
@@ -19,6 +20,10 @@ public class Five {
 			sum += a;
 		}
 		System.out.println(sum/5);
+		
+	}
+	
+	public void problem5543() {
 		
 	}
 
