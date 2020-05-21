@@ -38,7 +38,6 @@ public class Five {
 		}
  
 		
-		
 		// 음료
 		for (int i = 0; i < 2; i++) {
 			int value = in.nextInt();
