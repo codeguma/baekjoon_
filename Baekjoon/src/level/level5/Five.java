@@ -36,7 +36,6 @@ public class Five {
 				burger = value;
 			}
 		}
- 
 		
 		// 음료
 		for (int i = 0; i < 2; i++) {
