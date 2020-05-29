@@ -7,7 +7,8 @@ public class Five {
 	public static void main(String[] args) {
 		Five start = new Five();
 //		start.problem10039();
-		start.problem5543();
+//		start.problem5543();
+		start.problem10817();
 	}
 	public void problem10039() {
 		Scanner sc = new Scanner(System.in);
@@ -47,6 +48,29 @@ public class Five {
 		}
  
 		System.out.println(burger + drink - 50);
+	}
+	
+	public void problem10817() {
+		Scanner sc = new Scanner(System.in);
+		
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		int temp = 0;
+		
+		if(A >= B) {
+			if(A > C) {
+				if(B >= C) temp = B;
+				else temp = C;
+			}else if(A < C) {
+				temp = A;
+			}else temp = C;
+		}else {
+			if(A > C) temp = A;
+			else if(A == C) temp = A;
+			else temp = C;
+		}
+		System.out.println(temp);
 	}
 		
 		
