@@ -8,7 +8,9 @@ public class Five {
 		Five start = new Five();
 //		start.problem10039();
 //		start.problem5543();
-		start.problem10817();
+//		start.problem10817();
+		start.problem2523();
+		
 	}
 	public void problem10039() {
 		Scanner sc = new Scanner(System.in);
@@ -72,7 +74,22 @@ public class Five {
 		}
 		System.out.println(temp);
 	}
+	
+	public void problem2523() {
+		Scanner sc = new Scanner(System.in);
 		
+		int A = sc.nextInt();
+		int B = A/2;
+		
+		for(int i =0; i < A ; i++) {
+			for(int j =0; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			//여기까지가 정방향 이 뒤로부터는 역방향으로 n-1로 찍혀야함.
+			
+		}
+	}
 		
 	}
 
