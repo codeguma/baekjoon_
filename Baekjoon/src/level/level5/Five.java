@@ -86,7 +86,7 @@ public class Five {
 				System.out.print("*");
 			}
 			System.out.println();
-			//여기까지가 정방향 이 뒤로부터는 역방향으로 n-1로 찍혀야함.
+	
 			
 		}
 	}
