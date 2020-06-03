@@ -86,8 +86,12 @@ public class Five {
 				System.out.print("*");
 			}
 			System.out.println();
-	
-			
+		}
+		for(int i =0; i < A ; i++) {
+			for(int j =B-i; 0 <= j; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
 	}
 		
