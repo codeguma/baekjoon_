@@ -9,7 +9,8 @@ public class Five {
 //		start.problem10039();
 //		start.problem5543();
 //		start.problem10817();
-		start.problem2523();
+//		start.problem2523();
+		start.problem2446();
 		
 	}
 	public void problem10039() {
@@ -93,10 +94,18 @@ public class Five {
 			}
 			System.out.println();
 		}
-		
-		
 	}
+	public void problem2446() {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
 		
+		for(int i = a; i <= a && i > 0; i--) {
+			for(int j = 1 ; j < a*2 ; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
 	
 	}
 
