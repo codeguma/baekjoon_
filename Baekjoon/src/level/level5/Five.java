@@ -133,6 +133,8 @@ public class Five {
 				for(int a =0; a < i; a++ ) System.out.print(" ");
 			}
 			System.out.println();
+			
+			
 		}
 	}
 	
